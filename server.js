@@ -1,5 +1,7 @@
 import express from "express";
 
+console.log(process.env.STRING_CONEXAO)
+
 const posts = [
     {
         id: 1,
